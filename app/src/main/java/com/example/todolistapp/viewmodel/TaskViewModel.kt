@@ -11,10 +11,8 @@ class TaskViewModel : ViewModel() {
 
     private val db = Firebase.firestore
 
-    // Input field state
     var taskText = mutableStateOf("")
 
-    // Task list from Firestore
     var taskList = mutableStateListOf<Task>()
 
     init {
