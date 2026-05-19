@@ -9,6 +9,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.todolistapp.viewmodel.TaskViewModel
+import com.example.todolistapp.model.Task
 
 @Composable
 fun TaskScreen(
@@ -23,28 +24,19 @@ fun TaskScreen(
 
         OutlinedTextField(
             value = taskViewModel.taskText.value,
-
             onValueChange = {
                 taskViewModel.taskText.value = it
             },
-
-            label = {
-                Text("Enter Task")
-            },
-
+            label = { Text("Enter Task") },
             modifier = Modifier.fillMaxWidth()
         )
 
         Spacer(modifier = Modifier.height(12.dp))
 
         Button(
-            onClick = {
-                taskViewModel.addTask()
-            },
-
+            onClick = { taskViewModel.addTask() },
             modifier = Modifier.fillMaxWidth()
         ) {
-
             Text("Add Task")
         }
 
@@ -52,7 +44,7 @@ fun TaskScreen(
 
         LazyColumn {
 
-            items(taskViewModel.taskList) { task ->
+            items(taskViewModel.taskList) { task: Task ->
 
                 Card(
                     modifier = Modifier
@@ -64,12 +56,10 @@ fun TaskScreen(
                         modifier = Modifier
                             .fillMaxWidth()
                             .padding(16.dp),
-
-                        horizontalArrangement =
-                            Arrangement.SpaceBetween
+                        horizontalArrangement = Arrangement.SpaceBetween
                     ) {
 
-                        Text(text = task)
+                        Text(text = task.task)
 
                         Button(
                             onClick = {
