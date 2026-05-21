@@ -15,59 +15,72 @@ class TaskViewModel : ViewModel() {
 
     var taskList = mutableStateListOf<Task>()
 
-    init {
-        loadTasks()
-    }
-
     fun addTask() {
 
         if (taskText.value.isNotEmpty()) {
 
-            val taskMap = hashMapOf(
-                "task" to taskText.value
+            val document =
+                db.collection("tasks").document()
+
+            val newTask = Task(
+                id = document.id,
+                task = taskText.value,
+                completed = false
             )
 
-            db.collection("tasks")
-                .add(taskMap)
-                .addOnSuccessListener {
-                    taskText.value = ""
-                }
-                .addOnFailureListener { e ->
-                    e.printStackTrace()
-                }
+            document.set(newTask)
+
+            taskList.add(newTask)
+
+            taskText.value = ""
         }
     }
 
-    private fun loadTasks() {
-
-        db.collection("tasks")
-            .addSnapshotListener { snapshot, error ->
-
-                if (error != null) return@addSnapshotListener
-
-                val list = mutableListOf<Task>()
-
-                for (doc in snapshot!!) {
-
-                    val task = Task(
-                        id = doc.id,
-                        task = doc.getString("task") ?: ""
-                    )
-
-                    list.add(task)
-                }
-
-                taskList.clear()
-                taskList.addAll(list)
-            }
-    }
     fun deleteTask(task: Task) {
 
         db.collection("tasks")
             .document(task.id)
             .delete()
-            .addOnFailureListener { e ->
-                e.printStackTrace()
-            }
+
+        taskList.remove(task)
+    }
+
+    fun toggleTaskCompleted(task: Task) {
+
+        val updatedTask = task.copy(
+            completed = !task.completed
+        )
+
+        db.collection("tasks")
+            .document(task.id)
+            .set(updatedTask)
+
+        val index = taskList.indexOf(task)
+
+        if (index != -1) {
+
+            taskList[index] = updatedTask
+        }
+    }
+
+    fun editTask(
+        oldTask: Task,
+        newText: String
+    ) {
+
+        val updatedTask = oldTask.copy(
+            task = newText
+        )
+
+        db.collection("tasks")
+            .document(oldTask.id)
+            .set(updatedTask)
+
+        val index = taskList.indexOf(oldTask)
+
+        if (index != -1) {
+
+            taskList[index] = updatedTask
+        }
     }
 }
