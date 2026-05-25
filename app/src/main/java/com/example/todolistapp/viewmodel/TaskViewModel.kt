@@ -15,6 +15,27 @@ class TaskViewModel : ViewModel() {
 
     var taskList = mutableStateListOf<Task>()
 
+    init {
+        loadTasks()
+    }
+
+    fun loadTasks() {
+
+        db.collection("tasks")
+            .get()
+            .addOnSuccessListener { documents ->
+
+                taskList.clear()
+
+                for (document in documents) {
+
+                    val task = document.toObject(Task::class.java)
+
+                    taskList.add(task)
+                }
+            }
+    }
+
     fun addTask() {
 
         if (taskText.value.isNotEmpty()) {
