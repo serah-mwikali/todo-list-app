@@ -1,9 +1,9 @@
-com.example.todolistapp-pngs-0 C:\Users\user\AndroidStudioProjects\TodoListApp\app\build\generated\res\pngs\debug
-com.example.todolistapp-res-1 C:\Users\user\AndroidStudioProjects\TodoListApp\app\build\generated\res\processDebugGoogleServices
-com.example.todolistapp-updated_navigation_xml-2 C:\Users\user\AndroidStudioProjects\TodoListApp\app\build\generated\updated_navigation_xml\debug
-com.example.todolistapp-packageDebugResources-3 C:\Users\user\AndroidStudioProjects\TodoListApp\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.example.todolistapp-packageDebugResources-4 C:\Users\user\AndroidStudioProjects\TodoListApp\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.example.todolistapp-debug-5 C:\Users\user\AndroidStudioProjects\TodoListApp\app\build\intermediates\merged_res\debug\mergeDebugResources
-com.example.todolistapp-debug-6 C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\debug\res
-com.example.todolistapp-main-7 C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\res
+com.example.todolistapp-pngs-0 C:\Users\user\AndroidStudioProjects\todo-list-app\app\build\generated\res\pngs\debug
+com.example.todolistapp-res-1 C:\Users\user\AndroidStudioProjects\todo-list-app\app\build\generated\res\processDebugGoogleServices
+com.example.todolistapp-updated_navigation_xml-2 C:\Users\user\AndroidStudioProjects\todo-list-app\app\build\generated\updated_navigation_xml\debug
+com.example.todolistapp-packageDebugResources-3 C:\Users\user\AndroidStudioProjects\todo-list-app\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.todolistapp-packageDebugResources-4 C:\Users\user\AndroidStudioProjects\todo-list-app\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.todolistapp-debug-5 C:\Users\user\AndroidStudioProjects\todo-list-app\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.example.todolistapp-debug-6 C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\debug\res
+com.example.todolistapp-main-7 C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\res
 gradleHome-0 C:\Users\user\.gradle

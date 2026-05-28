@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\AndroidManifest.xml:2:1-27:12
+ADDED from C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\AndroidManifest.xml:2:1-27:12
 MERGED from [androidx.navigation:navigation-common:2.7.7] C:\Users\user\.gradle\caches\9.4.1\transforms\952eb21f4ac19b9fac869c4ad1351cc7\transformed\navigation-common-2.7.7\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-runtime:2.7.7] C:\Users\user\.gradle\caches\9.4.1\transforms\387ea64d3df7977ace42f53d1c5171ae\transformed\navigation-runtime-2.7.7\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] C:\Users\user\.gradle\caches\9.4.1\transforms\ef7f2e885e06d84ee51b9bd119801e92\transformed\navigation-common-ktx-2.7.7\AndroidManifest.xml:2:1-7:12
@@ -88,18 +88,18 @@ MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\user\.gradle\caches
 MERGED from [io.grpc:grpc-android:1.57.2] C:\Users\user\.gradle\caches\9.4.1\transforms\4b18977beeff95a74b39fb5c46a4a443\transformed\grpc-android-1.57.2\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\user\.gradle\caches\9.4.1\transforms\443d760034760b19ac21d6ab5f67fabb\transformed\protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
 	package
-		INJECTED from C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\AndroidManifest.xml:5:5-25:19
-INJECTED from C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\AndroidManifest.xml:5:5-25:19
+ADDED from C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\AndroidManifest.xml:5:5-25:19
+INJECTED from C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\AndroidManifest.xml:5:5-25:19
 MERGED from [com.google.firebase:firebase-firestore-ktx:25.0.0] C:\Users\user\.gradle\caches\9.4.1\transforms\63662373832fe221e281de76931ec15b\transformed\firebase-firestore-ktx-25.0.0\AndroidManifest.xml:8:5-16:19
 MERGED from [com.google.firebase:firebase-firestore-ktx:25.0.0] C:\Users\user\.gradle\caches\9.4.1\transforms\63662373832fe221e281de76931ec15b\transformed\firebase-firestore-ktx-25.0.0\AndroidManifest.xml:8:5-16:19
 MERGED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\user\.gradle\caches\9.4.1\transforms\bdd4f5ad562a2f87cf9527bb35c96144\transformed\firebase-firestore-25.0.0\AndroidManifest.xml:13:5-24:19
@@ -137,49 +137,49 @@ MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\user\.gr
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\user\.gradle\caches\9.4.1\transforms\d90565711d869b879fd867a8334c924f\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\user\.gradle\caches\9.4.1\transforms\d90565711d869b879fd867a8334c924f\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 	android:extractNativeLibs
-		INJECTED from C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\AndroidManifest.xml
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.16.0] C:\Users\user\.gradle\caches\9.4.1\transforms\874783514db9611b45fe87bf79a32d56\transformed\core-1.16.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\AndroidManifest.xml:10:9-41
+		ADDED from C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\AndroidManifest.xml:10:9-41
 	android:fullBackupContent
-		ADDED from C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\AndroidManifest.xml:8:9-54
+		ADDED from C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\AndroidManifest.xml:8:9-54
 	android:roundIcon
-		ADDED from C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\AndroidManifest.xml:11:9-54
+		ADDED from C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\AndroidManifest.xml:11:9-54
 	android:icon
-		ADDED from C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\AndroidManifest.xml:9:9-43
+		ADDED from C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\AndroidManifest.xml:9:9-43
 	android:allowBackup
-		ADDED from C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\AndroidManifest.xml:13:9-49
+		ADDED from C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\AndroidManifest.xml:13:9-49
 	android:dataExtractionRules
-		ADDED from C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\AndroidManifest.xml:7:9-65
+		ADDED from C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\AndroidManifest.xml:7:9-65
 activity#com.example.todolistapp.MainActivity
-ADDED from C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\AndroidManifest.xml:14:9-24:20
+ADDED from C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\AndroidManifest.xml:14:9-24:20
 	android:label
-		ADDED from C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\AndroidManifest.xml:17:13-45
+		ADDED from C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\AndroidManifest.xml:17:13-45
 	android:exported
-		ADDED from C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\AndroidManifest.xml:16:13-36
+		ADDED from C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\AndroidManifest.xml:16:13-36
 	android:theme
-		ADDED from C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\AndroidManifest.xml:18:13-53
+		ADDED from C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\AndroidManifest.xml:18:13-53
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\AndroidManifest.xml:15:13-41
+		ADDED from C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\AndroidManifest.xml:15:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\AndroidManifest.xml:19:13-23:29
+ADDED from C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\AndroidManifest.xml:19:13-23:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\AndroidManifest.xml:20:17-69
+ADDED from C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\AndroidManifest.xml:20:25-66
+		ADDED from C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\AndroidManifest.xml:22:17-77
+ADDED from C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\AndroidManifest.xml:22:27-74
+		ADDED from C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\AndroidManifest.xml:22:27-74
 uses-sdk
-INJECTED from C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\AndroidManifest.xml
 MERGED from [androidx.navigation:navigation-common:2.7.7] C:\Users\user\.gradle\caches\9.4.1\transforms\952eb21f4ac19b9fac869c4ad1351cc7\transformed\navigation-common-2.7.7\AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-common:2.7.7] C:\Users\user\.gradle\caches\9.4.1\transforms\952eb21f4ac19b9fac869c4ad1351cc7\transformed\navigation-common-2.7.7\AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-runtime:2.7.7] C:\Users\user\.gradle\caches\9.4.1\transforms\387ea64d3df7977ace42f53d1c5171ae\transformed\navigation-runtime-2.7.7\AndroidManifest.xml:20:5-44
@@ -347,9 +347,9 @@ MERGED from [io.grpc:grpc-android:1.57.2] C:\Users\user\.gradle\caches\9.4.1\tra
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\user\.gradle\caches\9.4.1\transforms\443d760034760b19ac21d6ab5f67fabb\transformed\protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\user\.gradle\caches\9.4.1\transforms\443d760034760b19ac21d6ab5f67fabb\transformed\protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
 	android:targetSdkVersion
-		INJECTED from C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\AndroidManifest.xml
 service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [com.google.firebase:firebase-firestore-ktx:25.0.0] C:\Users\user\.gradle\caches\9.4.1\transforms\63662373832fe221e281de76931ec15b\transformed\firebase-firestore-ktx-25.0.0\AndroidManifest.xml:9:9-15:19
 MERGED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\user\.gradle\caches\9.4.1\transforms\bdd4f5ad562a2f87cf9527bb35c96144\transformed\firebase-firestore-25.0.0\AndroidManifest.xml:14:9-23:19

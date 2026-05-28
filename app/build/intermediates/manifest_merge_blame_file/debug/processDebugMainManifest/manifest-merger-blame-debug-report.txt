@@ -32,48 +32,48 @@
 20-->[androidx.core:core:1.16.0] C:\Users\user\.gradle\caches\9.4.1\transforms\874783514db9611b45fe87bf79a32d56\transformed\core-1.16.0\AndroidManifest.xml:26:22-94
 21
 22    <application
-22-->C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\AndroidManifest.xml:5:5-25:19
+22-->C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\AndroidManifest.xml:5:5-25:19
 23        android:allowBackup="true"
-23-->C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\AndroidManifest.xml:6:9-35
+23-->C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\AndroidManifest.xml:6:9-35
 24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 24-->[androidx.core:core:1.16.0] C:\Users\user\.gradle\caches\9.4.1\transforms\874783514db9611b45fe87bf79a32d56\transformed\core-1.16.0\AndroidManifest.xml:28:18-86
 25        android:dataExtractionRules="@xml/data_extraction_rules"
-25-->C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\AndroidManifest.xml:7:9-65
+25-->C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\AndroidManifest.xml:7:9-65
 26        android:debuggable="true"
 27        android:extractNativeLibs="false"
 27-->INJECTED
 28        android:fullBackupContent="@xml/backup_rules"
-28-->C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\AndroidManifest.xml:8:9-54
+28-->C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\AndroidManifest.xml:8:9-54
 29        android:icon="@mipmap/ic_launcher"
-29-->C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\AndroidManifest.xml:9:9-43
+29-->C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\AndroidManifest.xml:9:9-43
 30        android:label="@string/app_name"
-30-->C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\AndroidManifest.xml:10:9-41
+30-->C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\AndroidManifest.xml:10:9-41
 31        android:roundIcon="@mipmap/ic_launcher_round"
-31-->C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\AndroidManifest.xml:11:9-54
+31-->C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\AndroidManifest.xml:11:9-54
 32        android:supportsRtl="true"
-32-->C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\AndroidManifest.xml:12:9-35
+32-->C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\AndroidManifest.xml:12:9-35
 33        android:testOnly="true"
 34        android:theme="@style/Theme.TodoListApp" >
-34-->C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\AndroidManifest.xml:13:9-49
+34-->C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\AndroidManifest.xml:13:9-49
 35        <activity
-35-->C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\AndroidManifest.xml:14:9-24:20
+35-->C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\AndroidManifest.xml:14:9-24:20
 36            android:name="com.example.todolistapp.MainActivity"
-36-->C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\AndroidManifest.xml:15:13-41
+36-->C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\AndroidManifest.xml:15:13-41
 37            android:exported="true"
-37-->C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\AndroidManifest.xml:16:13-36
+37-->C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\AndroidManifest.xml:16:13-36
 38            android:label="@string/app_name"
-38-->C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\AndroidManifest.xml:17:13-45
+38-->C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\AndroidManifest.xml:17:13-45
 39            android:theme="@style/Theme.TodoListApp" >
-39-->C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\AndroidManifest.xml:18:13-53
+39-->C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\AndroidManifest.xml:18:13-53
 40            <intent-filter>
-40-->C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\AndroidManifest.xml:19:13-23:29
+40-->C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\AndroidManifest.xml:19:13-23:29
 41                <action android:name="android.intent.action.MAIN" />
-41-->C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\AndroidManifest.xml:20:17-69
-41-->C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\AndroidManifest.xml:20:25-66
+41-->C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\AndroidManifest.xml:20:17-69
+41-->C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\AndroidManifest.xml:20:25-66
 42
 43                <category android:name="android.intent.category.LAUNCHER" />
-43-->C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\AndroidManifest.xml:22:17-77
-43-->C:\Users\user\AndroidStudioProjects\TodoListApp\app\src\main\AndroidManifest.xml:22:27-74
+43-->C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\AndroidManifest.xml:22:17-77
+43-->C:\Users\user\AndroidStudioProjects\todo-list-app\app\src\main\AndroidManifest.xml:22:27-74
 44            </intent-filter>
 45        </activity>
 46
